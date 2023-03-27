@@ -11,8 +11,8 @@ import { fetchFromAPI } from '../utils/fetchFromAPI'
   const [videos,setVideos]=useState([])
 
   useEffect(()=>{
-     fetchFromAPI(`search?part=snippet&q:${selectedCategory}`).then((data)=>setVideos(data.items))
-  },[selectedCategory]) 
+     fetchFromAPI(`search?part=snippet&q=${selectedCategory}`).then((data)=>setVideos(data.items))
+   },[selectedCategory])   //@@@@@@@   nhi smjh aaya   @@@@@@
 
 
   return (
@@ -36,7 +36,7 @@ Copyright 2023 JSM Media
         </span>
        </Typography>
 
-       <Videos videos={[videos]}/>
+       <Videos videos={videos}/>
       </Box>
     </Stack>
   )

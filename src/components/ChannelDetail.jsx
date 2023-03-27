@@ -30,7 +30,7 @@ export const ChannelDetail = () => {
       </Box>
 
       <Box display="flex" p="2">
-        <Box sx={{ mr: { sm: '100px' } }} />
+        <Box sx={{mr:{sm:'50px', md:'90px'}, ml:{sm:'35px'}}} />
         <Videos videos={videos} />
       </Box>
     </Box>

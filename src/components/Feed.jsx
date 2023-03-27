@@ -32,7 +32,7 @@ Copyright 2023 JSM Media
        
        <Typography variant='h4' fontWeight="bold" mb={2} sx={{color:'white'}}>
         {selectedCategory} <span style={{color:"#F31503"}}>
-           Vidoes
+           Videos
         </span>
        </Typography>
 

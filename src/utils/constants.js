@@ -16,7 +16,7 @@ export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
-  { name: 'King', icon: <MusicNoteIcon />, },
+  { name: 'King Rocco', icon: <MusicNoteIcon />, },
   { name: 'Krsna', icon: <MusicNoteIcon />, },
   { name: 'Bhojpuri', icon: <MusicNoteIcon />, },
   { name: 'Dino James', icon: <MusicNoteIcon /> },

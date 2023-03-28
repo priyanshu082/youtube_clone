@@ -17,7 +17,7 @@ import { fetchFromAPI } from '../utils/fetchFromAPI'
 
   return (
     <Stack sx={{flexDirection:{xs:'column',md:'row'}}}>
-      <Box sx={{height:{xs:"auto",md:"92vh"},width:{xs:"auto"},borderRight:"1px solid #3d3d3d",px:{xs:0,md:2}}}>
+      <Box sx={{height:{xs:"auto",md:"92vh"},borderRight:"1px solid #3d3d3d",px:{xs:0,md:2}}}>
 <SideBar 
     selectedCategory={selectedCategory}
     setSelectedCategory={setSelectedCategory}   

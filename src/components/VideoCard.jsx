@@ -12,7 +12,7 @@ export const VideoCard = ({video:{id:{videoId},snippet}}) => {
         <CardMedia 
         image={snippet?.thumbnails?.high?.url}
         alt={snippet?.title}
-        sx={{width:320, height:180}}/>
+        sx={{width:358, height:180}}/>
         </Link>
         <CardContent sx={{background:"#1e1e1e",height:'66px'}}>
             <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>

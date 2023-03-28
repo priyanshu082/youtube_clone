@@ -7,12 +7,12 @@ import { demoVideoUrl,demoChannelTitle,demoVideoTitle,demoChannelUrl} from '../u
 
 export const VideoCard = ({video:{id:{videoId},snippet}}) => {
   return (
-    <Card sx={{width:{md:'320px', xs:"100%"},boxShadow:"none" ,borderRadius:1}}>
+    <Card sx={{width:{  xs:"100%" , md:'320px'},boxShadow:"none" ,borderRadius:1}}>
         <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
         <CardMedia 
         image={snippet?.thumbnails?.high?.url}
         alt={snippet?.title}
-        sx={{width:443, height:180}}/>
+        sx={{width:320, height:180}}/>
         </Link>
         <CardContent sx={{background:"#1e1e1e",height:'66px'}}>
             <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
